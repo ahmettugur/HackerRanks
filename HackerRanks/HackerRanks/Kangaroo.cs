@@ -1,17 +1,13 @@
 ﻿using System;
-
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace HackerRanks
 {
-    class Program
+    public class Kangaroo
     {
-        static void Main(string[] args)
-        {
-            kangaroo(43, 5, 49, 3);
-            Console.ReadLine();
-        }
-
         public static string kangaroo(int x1, int v1, int x2, int v2)
         {
             if (v1 > v2)
@@ -22,7 +18,6 @@ namespace HackerRanks
                     return "YES";
                 }
             }
-
             return "NO";
         }
     }
